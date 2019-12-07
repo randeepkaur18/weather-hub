@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import './Header.scss';
+import "./Header.scss";
 
 const Header = () => (
-    <div data-test="component-header">
-        Weather hub
-    </div>
+  <div data-test="component-header" className="header">
+    Weather hub
+  </div>
 );
 
 export default Header;

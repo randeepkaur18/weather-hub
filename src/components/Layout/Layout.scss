@@ -1,5 +1,16 @@
 .layout {
-    background-image: linear-gradient(to bottom right, #cce6ff,  #ffffcc);
-    height: 100vh;
-    width: 100%;
+  background-image: linear-gradient(to bottom right, #cce6ff, #ffffcc);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout__content {
+  height: 85vh;
+  width: 80%;
+  display: grid;
+  grid-template-rows: 14rem 1fr;
+  grid-template-columns: 1fr 2fr;
 }

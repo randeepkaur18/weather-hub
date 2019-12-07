@@ -1,5 +1,8 @@
 .weather-container {
-  height: 70vh;
-  width: 70%;
   border: 1px solid black;
+
+  grid-column: 1 / -1;
+
+  display: grid;
+  grid-template-rows: 14rem 1fr;
 }

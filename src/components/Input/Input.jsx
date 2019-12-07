@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./Input.scss";
 
-const Input = ({ setInputValue }) => {
+const Input = ({ setInputValue, placeholder }) => {
   const [value, setValue] = React.useState("");
 
   React.useEffect(() => {
@@ -13,8 +13,10 @@ const Input = ({ setInputValue }) => {
   return (
     <input
       data-test="component-input"
+      className="input"
       type="text"
       value={value}
+      placeholder={placeholder}
       onChange={event => setValue(event.target.value)}
     />
   );

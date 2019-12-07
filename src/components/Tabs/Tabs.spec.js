@@ -1,13 +1,13 @@
 import React from "react";
+import { shallow } from "enzyme";
 
 import Tabs from "./Tabs";
 
 describe("Tabs", () => {
-  let props = {};
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Tabs {...props} />);
+    wrapper = shallow(<Tabs />);
   });
 
   test("renders without error", () => {

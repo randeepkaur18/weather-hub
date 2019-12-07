@@ -8,7 +8,7 @@ describe("WeatherData", () => {
   let props = {};
 
   beforeEach(() => {
-    wrapper = shallow(<WeatherData {...props} />);
+    wrapper = shallow(<WeatherData />);
   });
 
   test("renders without error", () => {
